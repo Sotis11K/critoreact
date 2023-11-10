@@ -1,0 +1,62 @@
+main .global-projects .global-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .global-projects .global-projects-container #project-text {
+    font-family: "Inter", sans-serif;
+    color: #f94d1c;
+  }
+  main .global-projects .global-projects-container h2 {
+    font-family: "DM sans", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  main .global-projects .global-projects-container .project-container {
+    display: flex;
+    padding: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  @media (max-width: 800px) {
+    main .global-projects .global-projects-container .project-container {
+      width: 90%;
+    }
+  }
+  main .global-projects .global-projects-container .project-container .project-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1rem;
+  }
+  @media (max-width: 768px) {
+    main .global-projects .global-projects-container .project-container .project-boxes img {
+      display: none;
+    }
+    main .global-projects .global-projects-container .project-container .project-boxes .project-boxes:hover {
+      padding: 1rem;
+    }
+  }
+  main .global-projects .global-projects-container .project-container .project-boxes:hover {
+    padding: 0;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  main .global-projects .global-projects-container .project-container .project-boxes span {
+    margin-top: 1rem;
+    font-family: "DM sans", sans-serif;
+    font-weight: bold;
+  }
+  main .global-projects .global-projects-container .project-container .project-boxes .project-readmore {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    align-self: end;
+    text-decoration: none;
+    color: black;
+  }
+  @media (max-width: 768px) {
+    main .global-projects .global-projects-container .project-container .project-boxes .project-readmore {
+      align-self: start;
+    }
+  }

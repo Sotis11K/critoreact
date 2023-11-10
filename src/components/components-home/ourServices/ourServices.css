@@ -1,0 +1,132 @@
+main .our-services-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0EFE9;
+    height: 870px;
+  }
+  @media (max-width: 400px) {
+    main .our-services-container {
+      margin-top: 16rem;
+    }
+  }
+  main .our-services-container div {
+    display: flex;
+    flex-direction: column;
+  }
+  main .our-services-container div span {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #F94D1C;
+  }
+  main .our-services-container div h2 {
+    font-size: 45px;
+    width: 40%;
+    font-family: "DM sans", sans-serif;
+    font-weight: bold;
+  }
+  @media (max-width: 1000px) {
+    main .our-services-container div h2 {
+      width: 100%;
+    }
+  }
+  main .our-services-container div .service-options {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (max-width: 768px) {
+    main .our-services-container div .service-options {
+      flex-direction: column;
+    }
+  }
+  main .our-services-container div .service-options div {
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: -moz-max-content;
+    height: max-content;
+    width: 20%;
+  }
+  @media (max-width: 1200px) {
+    main .our-services-container div .service-options div h3 {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 1200px) and (max-width: 768px) {
+    main .our-services-container div .service-options div {
+      width: 100%;
+    }
+  }
+  main .our-services-container div .service-options div div {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  main .our-services-container div .service-options div div::before {
+    content: "";
+    font-weight: 500;
+    height: 1px;
+    width: 2.5rem;
+    background-color: #191919;
+  }
+  main .our-services-container div .service-options div div a {
+    text-decoration: none;
+    align-self: end;
+  }
+  main .our-services-container div .service-options div div a i {
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #191919;
+    border-radius: 50%;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    main .our-services-container div .service-options div div a i {
+      height: 28px;
+      width: 28px;
+    }
+  }
+  main .our-services-container div .service-options div .servicebox-1:hover, main .our-services-container div .service-options div .servicebox-2:hover, main .our-services-container div .service-options div .servicebox-3:hover, main .our-services-container div .service-options div .servicebox-4:hover {
+    background-color: #F9D783;
+  }
+  main .our-services-container div .service-options div .servicebox-1:hover i, main .our-services-container div .service-options div .servicebox-2:hover i, main .our-services-container div .service-options div .servicebox-3:hover i, main .our-services-container div .service-options div .servicebox-4:hover i {
+    background-color: white;
+    color: black;
+  }
+  main .our-services-container div .service-options div .servicebox-1:hover i:hover, main .our-services-container div .service-options div .servicebox-2:hover i:hover, main .our-services-container div .service-options div .servicebox-3:hover i:hover, main .our-services-container div .service-options div .servicebox-4:hover i:hover {
+    box-shadow: 0 0 10px 2px black;
+  }
+  main .our-services-container div .browse-services-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7.25rem;
+  }
+  main .our-services-container div .browse-services-link a {
+    border-radius: 40px;
+    border: 1px solid #191919;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  main .our-services-container div .browse-services-link a:hover {
+    background-color: #F9D783;
+    color: white;
+    transition-duration: 0.2s;
+  }

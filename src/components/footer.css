@@ -1,0 +1,98 @@
+main .footer {
+    height: -moz-max-content;
+    height: max-content;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #0E1021;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .footer .container {
+    height: 100%;
+  }
+  main .footer .container .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+  }
+  @media (max-width: 1400px) {
+    main .footer .container .footer-container {
+      gap: 2rem;
+    }
+  }
+  @media (max-width: 1000px) {
+    main .footer .container .footer-container {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+  main .footer .container .footer-container .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  main .footer .container .footer-container .footer-links a:nth-child(2) {
+    margin-top: 1rem;
+  }
+
+  main .footer .container .footer-container .footer-links h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  main .footer .container .footer-container .footer-links a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  main .footer .container .footer-container .footer-links a:hover {
+    text-decoration: underline;
+  }
+  main .footer .container .footer-container .footer-links img {
+    width: 10rem;
+    height: 5rem;
+  }
+  main .footer .container .footer-container .footer-links p {
+    width: 309px;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  main .footer .background-lines3 {
+    width: 308px;
+    height: 94px;
+    margin-left:auto;
+  }
+  main .footer .copyright {
+    padding-top: 1rem;
+    border-top: solid 1px RGBA(255, 255, 255, 0.2);
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .footer .copyright .container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+  @media (max-width: 500px) {
+    main .footer .copyright .container {
+      flex-direction: column;
+    }
+  }
+  main .footer .copyright .container span {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  main .footer .copyright .container .footer-socials i {
+    color: white;
+    font-size: 15px;
+  }

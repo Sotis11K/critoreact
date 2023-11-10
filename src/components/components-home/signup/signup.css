@@ -1,0 +1,75 @@
+main .signup {
+    width: 100%;
+    height: 270px;
+    background-color: #F0EFE9;
+    position: relative;
+  }
+  main .signup .signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+  }
+  main .signup .signup-container h2 {
+    margin-right: 6rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  @media (max-width: 1000px) {
+    main .signup .signup-container h2 {
+      font-size: 20px;
+      margin-right: 3rem;
+    }
+  }
+  @media (max-width: 500px) {
+    main .signup .signup-container h2 {
+      display: none;
+    }
+  }
+  main .signup .signup-container input {
+    width: 308px;
+    height: 56px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    text-indent: 2rem;
+  }
+  @media (max-width: 1000px) {
+    main .signup .signup-container input {
+      text-indent: 0;
+    }
+  }
+  main .signup .signup-container a {
+    width: 171px;
+    height: 56px;
+    border-radius: 40px;
+    background-color: #F9D783;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    color: black;
+  }
+  main .signup .signup-container a:hover {
+    background-color: white;
+    transition-duration: 0.2s;
+  }
+  @media (max-width: 1000px) {
+    main .signup .signup-container a {
+      font-size: 10px;
+    }
+  }
+  main .signup .signup-container img {
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+  }
+  @media (max-width: 1350px) {
+    main .signup .signup-container img {
+      display: none;
+    }
+  }

@@ -1,0 +1,78 @@
+main .features {
+    border: 1px solid rgba(25, 25, 25, 0.2);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 4rem;
+    margin-bottom: 6rem;
+  }
+  @media (max-width: 992px) {
+    main .features {
+      gap: 2rem;
+      flex-direction: column;
+    }
+  }
+  main .features .features-title {
+    width: 38%;
+  }
+  main .features .features-title span {
+    color: #F94D1C;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  main .features .features-title h2 {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "DM Sans", sans-serif;
+  }
+  @media (max-width: 992px) {
+    main .features .features-title h2 {
+      display: none;
+    }
+  }
+  main .features .features-title .features-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    color: black;
+    background-color: #F9D783;
+    border-radius: 40px;
+    height: 56px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  @media (max-width: 500px) {
+    main .features .features-title .features-button {
+      font-size: 12px;
+    }
+  }
+  main .features .features-title .features-button:hover {
+    transition-duration: 0.2;
+    cursor: pointer;
+    background-color: #191919;
+    color: white;
+  }
+  main .features .features-descriptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 50%;
+  }
+  @media (max-width: 992px) {
+    main .features .features-descriptions {
+      width: 100%;
+    }
+  }
+  main .features .features-descriptions div {
+    display: grid;
+    gap: 0.5rem;
+  }
+  main .features .features-descriptions div h3 {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-size: 22px;
+  }
