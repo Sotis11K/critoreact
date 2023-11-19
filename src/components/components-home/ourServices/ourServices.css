@@ -83,7 +83,7 @@ main .our-services-container {
     text-decoration: none;
     align-self: end;
   }
-  main .our-services-container div .service-options div div a i {
+  main .our-services-container div .service-options div div a .servicebox-icon {
     display: grid;
     place-items: center;
     width: 56px;
@@ -91,9 +91,10 @@ main .our-services-container {
     background-color: #191919;
     border-radius: 50%;
     color: white;
+    padding: 18px;
   }
   @media (max-width: 768px) {
-    main .our-services-container div .service-options div div a i {
+    main .our-services-container div .service-options div div a .servicebox-icon {
       height: 28px;
       width: 28px;
     }
@@ -101,11 +102,11 @@ main .our-services-container {
   main .our-services-container div .service-options div .servicebox-1:hover, main .our-services-container div .service-options div .servicebox-2:hover, main .our-services-container div .service-options div .servicebox-3:hover, main .our-services-container div .service-options div .servicebox-4:hover {
     background-color: #F9D783;
   }
-  main .our-services-container div .service-options div .servicebox-1:hover i, main .our-services-container div .service-options div .servicebox-2:hover i, main .our-services-container div .service-options div .servicebox-3:hover i, main .our-services-container div .service-options div .servicebox-4:hover i {
+  main .our-services-container div .service-options div .servicebox-1:hover .servicebox-icon, main .our-services-container div .service-options div .servicebox-2:hover .servicebox-icon, main .our-services-container div .service-options div .servicebox-3:hover .servicebox-icon, main .our-services-container div .service-options div .servicebox-4:hover .servicebox-icon {
     background-color: white;
     color: black;
   }
-  main .our-services-container div .service-options div .servicebox-1:hover i:hover, main .our-services-container div .service-options div .servicebox-2:hover i:hover, main .our-services-container div .service-options div .servicebox-3:hover i:hover, main .our-services-container div .service-options div .servicebox-4:hover i:hover {
+  main .our-services-container div .service-options div .servicebox-1:hover .servicebox-icon:hover, main .our-services-container div .service-options div .servicebox-2:hover .servicebox-icon:hover, main .our-services-container div .service-options div .servicebox-3:hover .servicebox-icon:hover, main .our-services-container div .service-options div .servicebox-4:hover .servicebox-icon:hover {
     box-shadow: 0 0 10px 2px black;
   }
   main .our-services-container div .browse-services-link {

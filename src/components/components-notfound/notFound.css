@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.notfound-container{
+    height: 100vh;
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sad{
+    font-size: 100px;
+}

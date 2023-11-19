@@ -5,6 +5,8 @@ import buisnessadvice from '../../../images/buisnessadvice.svg'
 import startupbuisness from '../../../images/startupbuisness.svg'
 import financialadvice from '../../../images/financialadvice.svg'
 import riskmanagement from '../../../images/riskmanagement.svg'
+import { FaArrowTrendUp } from "react-icons/fa6";
+
 
 const Features = () => {
   return (
@@ -13,7 +15,7 @@ const Features = () => {
             <div className="features-title">
                 <span>Features</span>
                 <h2>Our accounting is trusted by thousand of companies</h2>
-                <a className="features-button" href="#">Learn More<i className="fa-solid fa-arrow-trend-up"></i></a>
+                <a className="features-button" href="#">Learn More<FaArrowTrendUp /></a>
             </div>
 
             <div className="features-descriptions">

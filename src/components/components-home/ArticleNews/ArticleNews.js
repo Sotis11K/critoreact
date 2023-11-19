@@ -5,6 +5,8 @@ import './articleNews.css'
 import classroomdigitalization from '../../../images/classroomdigitalization.png'
 import implementchatgpt from '../../../images/implementchatgpt.png'
 import moderncss from '../../../images/moderncss.png'
+import { FaArrowTrendUp } from "react-icons/fa6";
+
 
 
 const ArticleNews = () => {
@@ -16,7 +18,7 @@ const ArticleNews = () => {
                 <span>Article & News</span>
                 <div class="flex-assist">
                     <h2>Get Every Single Article & News</h2>
-                    <a href="">Browse Articles<i class="fa-solid fa-arrow-trend-up"></i></a>
+                    <a href="">Browse Articles<FaArrowTrendUp /></a>
                 </div>
                 <div class="articles-container">
                     <div class="article-box">

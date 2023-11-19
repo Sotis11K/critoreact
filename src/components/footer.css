@@ -1,4 +1,4 @@
-main .footer {
+ .footer {
     height: -moz-max-content;
     height: max-content;
     padding-top: 6rem;
@@ -10,27 +10,27 @@ main .footer {
     flex-direction: column;
     justify-content: space-between;
   }
-  main .footer .container {
+   .footer .container {
     height: 100%;
   }
-  main .footer .container .footer-container {
+   .footer .container .footer-container {
     display: flex;
     justify-content: center;
     gap: 6rem;
     align-items: center;
   }
   @media (max-width: 1400px) {
-    main .footer .container .footer-container {
+     .footer .container .footer-container {
       gap: 2rem;
     }
   }
   @media (max-width: 1000px) {
-    main .footer .container .footer-container {
+     .footer .container .footer-container {
       flex-direction: column;
       align-items: start;
     }
   }
-  main .footer .container .footer-container .footer-links {
+   .footer .container .footer-container .footer-links {
     display: flex;
     flex-direction: column;
     gap: 0rem;
@@ -38,61 +38,62 @@ main .footer {
     height: max-content;
   }
 
-  main .footer .container .footer-container .footer-links a:nth-child(2) {
+   .footer .container .footer-container .footer-links a:nth-child(2) {
     margin-top: 1rem;
   }
 
-  main .footer .container .footer-container .footer-links h3 {
+   .footer .container .footer-container .footer-links h3 {
     font-family: "DM Sans", sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: #ffffff;
   }
-  main .footer .container .footer-container .footer-links a {
+   .footer .container .footer-container .footer-links a {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     color: rgb(255, 255, 255);
     opacity: 0.7;
     text-decoration: none;
   }
-  main .footer .container .footer-container .footer-links a:hover {
+   .footer .container .footer-container .footer-links a:hover {
     text-decoration: underline;
   }
-  main .footer .container .footer-container .footer-links img {
+   .footer .container .footer-container .footer-links img {
     width: 10rem;
     height: 5rem;
   }
-  main .footer .container .footer-container .footer-links p {
+   .footer .container .footer-container .footer-links p {
     width: 309px;
     font-family: "Inter", sans-serif;
     color: rgba(255, 255, 255, 0.7);
   }
-  main .footer .background-lines3 {
+   .footer .background-lines3 {
     width: 308px;
     height: 94px;
     margin-left:auto;
   }
-  main .footer .copyright {
+   .footer .copyright {
     padding-top: 1rem;
     border-top: solid 1px RGBA(255, 255, 255, 0.2);
     height: -moz-max-content;
     height: max-content;
   }
-  main .footer .copyright .container {
+   .footer .copyright .container {
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
   }
   @media (max-width: 500px) {
-    main .footer .copyright .container {
+     .footer .copyright .container {
       flex-direction: column;
     }
   }
-  main .footer .copyright .container span {
+   .footer .copyright .container span {
     font-family: "Inter", sans-serif;
     color: rgba(255, 255, 255, 0.7);
   }
-  main .footer .copyright .container .footer-socials i {
+   .footer .copyright .container .footer-socials .footer-icons {
+    margin: 0px 10px;
     color: white;
     font-size: 15px;
   }

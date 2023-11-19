@@ -1,0 +1,84 @@
+/*form>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input{
+  display: block;
+  padding: 10px;
+}
+
+span{
+  padding: 10px;
+  font-size: 0.8em;
+  color: rgb(227, 55, 55)
+}
+
+.error{
+  color: rgb(227, 55, 55);
+  border: 1px solid rgb(227, 55, 55);
+  background-color: rgb(238, 202, 202);
+}*/
+
+
+
+main .leaveamessage {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  main .leaveamessage .leaveamessage-container {
+    padding: 4rem 0;
+    background-color: #F0EFE9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .leaveamessage .leaveamessage-container h2 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  @media (max-width: 500px) {
+    main .leaveamessage .leaveamessage-container h2 {
+      font-size: 20px;
+    }
+  }
+  main .leaveamessage .leaveamessage-container input, main .leaveamessage .leaveamessage-container textarea {
+    width: 90%;
+    height: 56px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    border: none;
+    text-indent: 2rem;
+    word-wrap: break-word;
+  }
+  main .leaveamessage .leaveamessage-container textarea{
+    height: 9rem;
+    padding-top: 1rem;
+  }
+
+
+  main .leaveamessage .leaveamessage-container button {
+    background-color: #F9D783;
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 56px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  main .leaveamessage .leaveamessage-container button:hover {
+    background-color: white;
+    transition-duration: 0.2s;
+    box-shadow: 0 0 5px 2px black;
+  }

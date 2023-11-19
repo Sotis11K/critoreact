@@ -10,6 +10,8 @@ import justinwilloman from '../../../images/justinwilloman.png'
 import cassandrawarren from '../../../images/cassandrawarren.png'
 import amandatulling from '../../../images/amandatulling.png'
 import jackmcdogglas from '../../../images/jackmcdogglas.png'
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa";
 
 const MeetTheCrew = () => {
   return (
@@ -22,7 +24,7 @@ const MeetTheCrew = () => {
                     <span>Meet Our Team</span>
                     <div className="flex-assist">
                         <h2>Experienced Team Members</h2>
-                        <a href="#">Browse Team <i className="fa-solid fa-arrow-trend-up"></i></a>
+                        <a href="#">Browse Team <FaArrowTrendUp /></a>
                     </div>
                 </div>
 
@@ -66,11 +68,11 @@ const MeetTheCrew = () => {
                         <div className="reviews-container">
                             <div>
                                 <div className="review-rating">
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
                                 </div>
                                 <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
                                 <div className="reviewer-information">
@@ -83,11 +85,11 @@ const MeetTheCrew = () => {
                             </div>
                             <div>
                                 <div className="review-rating">
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
                                 </div>
                                 <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
                                 <div className="reviewer-information">
@@ -100,11 +102,11 @@ const MeetTheCrew = () => {
                             </div>
                             <div>
                                 <div className="review-rating">
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
-                                    <i className="fa-solid fa-star"></i>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
+                                    <FaStar className="star-icons"/>
                                 </div>
                                 <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
                                 <div className="reviewer-information">
@@ -116,7 +118,7 @@ const MeetTheCrew = () => {
                                 </div>
                             </div>
                         </div>
-                        <a href="" className="all-reviews">All reviews <i className="fa-solid fa-arrow-trend-up"></i></a>
+                        <a href="" className="all-reviews">All reviews <FaArrowTrendUp /></a>
                     </div>
                 </div>
                 

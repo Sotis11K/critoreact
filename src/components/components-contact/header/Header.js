@@ -1,7 +1,6 @@
 import React from 'react'
-import './header.css'
+
 import logo from '../../../images/logo.svg'
-import manreading from '../../../images/manreading.png'
 import phoneCalling from '../../../images/telephone-call.png'
 import mail from '../../../images/mail.png'
 import location from '../../../images/location.png'
@@ -13,33 +12,33 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-
 const Header = () => {
   return (
+    <>
     <header>
-        <div className="container">
+        <div class="container">
 
-            <img src={logo} alt="Crito logo" />
-            <i className="menu-bars fa-solid fa-bars"></i>
-            <div className="menu">
-                <div className="top-menu">
-                    <div className="contact-information">
-                        <div className="content-box">
+            <img id="test1" src={logo} alt="Crito logo" />
+            <i class="menu-bars fa-solid fa-bars"></i>
+            <div class="menu">
+                <div class="top-menu">
+                    <div class="contact-information">
+                        <div class="content-box">
                             <img src={phoneCalling} alt="" />
                             +46 (8) 121 470 50
                         </div>
-                        <div className="content-box">
+                        <div class="content-box">
                             <img src={mail} alt="" />
                             info@crito.com
                         </div>
-                        <div className="content-box">
+                        <div class="content-box">
                             <img src={location} alt="" />
                             Sveavägen 31, 111 34 STOCKHOLM
                         </div>
                     </div>
 
-                    <div className="social-media-container">
-                        <a href="https://facebook.com"><FaFacebook className="social-media-icons" /></a>
+                    <div class="social-media-container">
+                    <a href="https://facebook.com"><FaFacebook className="social-media-icons" /></a>
                         <a href="https://x.com"><FaTwitter className="social-media-icons" /></a>
                         <a href="https://instagram.com"><FaInstagram className="social-media-icons" /></a>
                         <a href="https:linkedin.com"><FaLinkedin className="social-media-icons" /></a>
@@ -48,47 +47,29 @@ const Header = () => {
 
 
 
-                <div className="main-menu">
+                <div class="main-menu">
                     <nav>
                         <a href="/">Home</a>
                         <a href="/services">Services</a>
                         <a href="/news">News</a>
                         <a href="/contact">Contact</a>
                     </nav>
-                    <a className="login-button" href="login.html">Login <FaArrowTrendUp /></a>
+                    <a class="login-button" href="/login">Login <FaArrowTrendUp /></a>
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-
-
-            <img src={lines} className="background-lines1" alt="background lines" />
-
-
-
-
-        <div className="container header-container">
-            <div className="about-box">
-                <div className="about-text">
-                    <h1>We provide The Best business solutions</h1>
-                    <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
-                    
-                    <div className="about-buttons">
-                        <a href="#" id="about-button-consulting">Get Consulting <FaArrowTrendUp /></a>
-                        <a href="#"id="about-button-learnmore">Learn More <FaArrowTrendUp /></a>
-                    </div>
-                </div>
-                <div className="about-images">
-                    <img src={manreading} alt="manreading" />
-                </div>
+        <div class="letsconnect">
+            <div class="connect-links">
+                <a href="home.html">Home</a>
+                <a href="contact.html">Contact</a>
             </div>
+            <h1>Let's connect</h1>
         </div>
+        <img src={lines} class="background-lines2" alt="background lines" />
+
     </header>
+    </>
   )
 }
 

@@ -151,7 +151,7 @@ main .meet-the-crew {
     flex-direction: row;
     gap: 0.25rem;
   }
-  main .meet-the-crew .meet-the-crew-container .testimonial .testimonial-container .reviews-container div .review-rating i {
+  main .meet-the-crew .meet-the-crew-container .testimonial .testimonial-container .reviews-container div .review-rating .star-icons {
     color: #F94D1C;
     font-size: 15px;
   }
